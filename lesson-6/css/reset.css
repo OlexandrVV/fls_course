@@ -1,0 +1,56 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-weight: inherit;
+	font-style: inherit;
+	margin: 0;
+	padding: 0;
+}
+ul,
+ol {
+	padding: 0;
+}
+ul,
+li {
+	list-style: none;	
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img {
+	vertical-align: top;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-family: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
